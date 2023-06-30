@@ -7,7 +7,7 @@ data = json.load("Put your filename")
 # print ("Keys (top level) :", ...)
 
 # Get event 0 and print its keys (it's also a dictionnary)
-# event0 = 
+# event0 =
 # print ("Keys (event level) :", ...)
 
 # Get tracks of event 0 and print their keys (yes, again a dictionnary)

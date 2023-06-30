@@ -10,4 +10,4 @@ from sklearn.model_selection import KFold
 from xgboost import XGBClassifier
 
 list(1)
-plt.hist(list, bins=5, xlabel= 'fun',ylabel='times' )
+plt.hist(list, bins=5, xlabel="fun", ylabel="times")
