@@ -1,3 +1,6 @@
+
+all: julia_seb
+
 extendToCaloExercise: extendToCaloExercise.cpp
 	g++ -std=c++17 -I /home/sponcec3/DEVEL/LHCb/BeatTest/ -o $@ $<
 
@@ -10,3 +13,7 @@ clean:
 clobber: clean
 	rm -rf libmandel.so extendToCaloExercise
 
+CPPFLAGS=-std=c++17 
+
+julia_seb: julia_seb.cpp
+	${CXX} ${CPPFLAGS} -o $@ $<
